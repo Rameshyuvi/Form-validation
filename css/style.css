@@ -1,0 +1,47 @@
+body{
+    margin: 0;
+    padding: 0;
+align-items: center;
+background-color: aqua;
+}
+.container{
+    /* max-width: 300px;
+    margin: 0 auto;
+    background-color: antiquewhite;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px black; */
+    max-width: 300px;
+    margin:  auto;
+    box-shadow: 0 0 10px black;
+    padding: 20px;
+
+}
+h1{
+    text-align: center;
+    padding-bottom: 20px;
+}
+label{
+    display: block;
+    margin-bottom: 8px;
+    color: blue;
+}
+.error{
+    color: red;
+    display: block;
+
+}
+input{
+    width: 100%;
+    margin-bottom: 20px;
+    
+}
+input[type="submit"]{
+    background-color: green;
+
+}
+input[type="submit"]:hover{
+    background-color: antiquewhite;
+    cursor: pointer;
+}
+
